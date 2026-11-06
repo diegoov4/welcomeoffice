@@ -17,7 +17,7 @@ transparente a mayor resolución.
 
 | Color | Hex | Uso |
 |---|---|---|
-| Rojo WelcomeOffice | `#C8102E` | "Office", hoja, edificios, botones principales |
-| Naranja | `#E07A10` | Degradado del arco, acentos |
+| Rojo WelcomeOffice | `#C81E1A` | "Office", hoja, edificios, botones principales |
+| Naranja | `#D07808` | Degradado del arco, acentos |
 | Negro azulado | `#0B121A` | "Welcome", textos |
 | Blanco | `#FFFFFF` | Fondos |
