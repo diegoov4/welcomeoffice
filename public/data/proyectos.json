@@ -1,0 +1,95 @@
+{
+  "_instrucciones": "Cada proyecto es un objeto de la lista 'proyectos'. Las fotos reales se guardan en R2 (bucket welcomeoffice-media) bajo proyectos/<id>/ y se enlazan como /media/proyectos/<id>/<archivo>. Quita \"ejemplo\": true cuando el proyecto sea real.",
+  "proyectos": [
+    {
+      "id": "ejemplo-sede-corporativa",
+      "ejemplo": true,
+      "titulo": "Sede corporativa",
+      "cliente": "Cliente de ejemplo",
+      "ubicacion": "Madrid",
+      "anio": 2026,
+      "sector": "oficinas",
+      "servicios": ["Mamparas", "Suelo técnico", "Mobiliario de oficina"],
+      "descripcion": "Reforma integral de una planta de oficinas: distribución con mamparas de vidrio, suelo técnico registrable y puestos de trabajo operativos.",
+      "imagenes": [
+        { "src": "/img/dummy/oficina.svg", "alt": "Zona de puestos de trabajo" },
+        { "src": "/img/dummy/reuniones.svg", "alt": "Sala de reuniones con mamparas" }
+      ]
+    },
+    {
+      "id": "ejemplo-hospital-sala-espera",
+      "ejemplo": true,
+      "titulo": "Salas de espera hospitalarias",
+      "cliente": "Cliente de ejemplo",
+      "ubicacion": "Toledo",
+      "anio": 2025,
+      "sector": "hospitales",
+      "servicios": ["Bancadas", "Mostradores", "Señalética"],
+      "descripcion": "Equipamiento de salas de espera con bancadas de alta resistencia y fácil limpieza, y mostradores de admisión adaptados.",
+      "imagenes": [
+        { "src": "/img/dummy/espera.svg", "alt": "Sala de espera con bancadas" },
+        { "src": "/img/dummy/mostrador.svg", "alt": "Mostrador de admisión" }
+      ]
+    },
+    {
+      "id": "ejemplo-centro-formacion",
+      "ejemplo": true,
+      "titulo": "Centro de formación",
+      "cliente": "Cliente de ejemplo",
+      "ubicacion": "Guadalajara",
+      "anio": 2025,
+      "sector": "formacion",
+      "servicios": ["Salas de formación", "Mobiliario modular", "Techos acústicos"],
+      "descripcion": "Aulas polivalentes con mesas abatibles y apilables para reconfigurar el espacio en minutos, y techo acústico para mejorar la inteligibilidad.",
+      "imagenes": [
+        { "src": "/img/dummy/formacion.svg", "alt": "Aula de formación" },
+        { "src": "/img/dummy/obra.svg", "alt": "Techo acústico" }
+      ]
+    },
+    {
+      "id": "ejemplo-atencion-ciudadana",
+      "ejemplo": true,
+      "titulo": "Oficina de atención ciudadana",
+      "cliente": "Cliente de ejemplo",
+      "ubicacion": "Ciudad Real",
+      "anio": 2024,
+      "sector": "espacios-publicos",
+      "servicios": ["Mostradores", "Bancadas", "Mamparas"],
+      "descripcion": "Mostrador de atención accesible, zona de espera y separación de puestos con mamparas para un servicio al público ordenado.",
+      "imagenes": [
+        { "src": "/img/dummy/mostrador.svg", "alt": "Mostrador de atención" },
+        { "src": "/img/dummy/espera.svg", "alt": "Zona de espera" }
+      ]
+    },
+    {
+      "id": "ejemplo-clinica",
+      "ejemplo": true,
+      "titulo": "Clínica y consultas",
+      "cliente": "Cliente de ejemplo",
+      "ubicacion": "Madrid",
+      "anio": 2024,
+      "sector": "hospitales",
+      "servicios": ["Obra seca", "Suelos", "Mamparas"],
+      "descripcion": "Compartimentación de consultas con tabiquería seca, suelo vinílico sanitario y mamparas en zonas comunes.",
+      "imagenes": [
+        { "src": "/img/dummy/obra.svg", "alt": "Obra seca y suelos" },
+        { "src": "/img/dummy/reuniones.svg", "alt": "Mamparas de vidrio" }
+      ]
+    },
+    {
+      "id": "ejemplo-salas-reuniones",
+      "ejemplo": true,
+      "titulo": "Salas de reuniones",
+      "cliente": "Cliente de ejemplo",
+      "ubicacion": "Alcalá de Henares",
+      "anio": 2023,
+      "sector": "oficinas",
+      "servicios": ["Salas de reuniones", "Mamparas", "Mobiliario"],
+      "descripcion": "Salas de reuniones acristaladas con mesas de juntas, sillería ergonómica y preinstalación audiovisual.",
+      "imagenes": [
+        { "src": "/img/dummy/reuniones.svg", "alt": "Sala de reuniones" },
+        { "src": "/img/dummy/oficina.svg", "alt": "Zona de trabajo" }
+      ]
+    }
+  ]
+}

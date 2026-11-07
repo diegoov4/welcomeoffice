@@ -1,0 +1,18 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "welcomeoffice-web",
+  "main": "src/worker.js",
+  "compatibility_date": "2026-10-01",
+  "assets": {
+    "directory": "./public",
+    "binding": "ASSETS",
+    "not_found_handling": "404-page"
+  },
+  "r2_buckets": [
+    { "binding": "MEDIA", "bucket_name": "welcomeoffice-media" }
+  ],
+  "routes": [
+    { "pattern": "welcomeoffice.diemo.com", "custom_domain": true }
+  ],
+  "observability": { "enabled": true }
+}
