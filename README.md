@@ -2,7 +2,7 @@
 
 Web de WelcomeOffice: equipamiento integral para oficinas, espacios públicos y
 hospitales (obra seca, suelos, techos, mamparas y mobiliario interior).
-Publicada en **https://welcomeoffice.diemo.com** con un Cloudflare Worker.
+Publicada en **https://welcomeoffice.diemo.dev** con un Cloudflare Worker.
 
 ## Estructura
 
@@ -26,7 +26,7 @@ fichas-tecnicas/                            PDF técnicos
 sostenibilidad/                             certificados y declaraciones ambientales
 ```
 
-y la web las sirve en `https://welcomeoffice.diemo.com/media/<ruta>`.
+y la web las sirve en `https://welcomeoffice.diemo.dev/media/<ruta>`.
 
 Para añadir un proyecto:
 
@@ -43,8 +43,8 @@ Recomendado: fotos horizontales, en JPG o WebP, de unos 2000 px de ancho y menos
 ```bash
 npm install
 npm run dev      # http://localhost:8787
-npm run deploy   # publica en welcomeoffice.diemo.com
+npm run deploy   # publica en welcomeoffice.diemo.dev
 ```
 
-`diemo.com` tiene que estar gestionado en la misma cuenta de Cloudflare para que
+`diemo.dev` tiene que estar gestionado en la misma cuenta de Cloudflare para que
 el dominio personalizado se cree automáticamente.
