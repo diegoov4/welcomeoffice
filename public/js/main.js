@@ -1,11 +1,11 @@
 // Configuración: pon aquí el email que recibirá las solicitudes de presupuesto.
-const CONFIG = { emailContacto: "" };
+const CONFIG = { emailContacto: "igarcia@welcome-office.com" };
 
 const SECTORES = {
-  "oficinas": "Oficinas",
+  "oficinas": "Oficina",
+  "hospitales": "Sanidad",
+  "formacion": "Educación y formación",
   "espacios-publicos": "Espacios públicos",
-  "hospitales": "Hospitales",
-  "formacion": "Formación",
 };
 
 const $ = (s, el = document) => el.querySelector(s);
