@@ -1,8 +1,24 @@
 // Worker de WelcomeOffice:
 //  - /media/*  -> archivos del bucket R2 "welcomeoffice-media" (fotos de proyectos, fichas, certificados)
 //  - resto     -> web estática de la carpeta public/
+// Mientras la web esté en pruebas en diemo.dev, se pide a los buscadores que no la indexen
+// (para no competir con la web en producción). Para permitir la indexación, pon INDEXAR = true.
+const INDEXAR = false;
+
+function sinIndexar(response) {
+  if (INDEXAR) return response;
+  const r = new Response(response.body, response);
+  r.headers.set("X-Robots-Tag", "noindex, nofollow");
+  return r;
+}
+
 export default {
   async fetch(request, env) {
+    return sinIndexar(await atender(request, env));
+  },
+};
+
+async function atender(request, env) {
     const url = new URL(request.url);
 
     if (url.pathname.startsWith("/media/")) {
@@ -29,5 +45,4 @@ export default {
     }
 
     return env.ASSETS.fetch(request);
-  },
-};
+}
